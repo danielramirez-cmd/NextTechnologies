@@ -29,7 +29,7 @@
         {
             int SumaTotal = Enumerable.Range(1,100).Sum();  
             int SumaActual = numeros.Sum();
-            return SumaTotal;
+            return SumaTotal - SumaActual;
         }
 
         #endregion
