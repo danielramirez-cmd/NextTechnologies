@@ -1,0 +1,6 @@
+@NextTechnologies_HostAddress = http://localhost:5128
+
+GET {{NextTechnologies_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
