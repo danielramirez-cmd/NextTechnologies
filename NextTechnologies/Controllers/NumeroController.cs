@@ -20,6 +20,7 @@ namespace NextTechnologies.Controllers
                 // Calcular el número faltante
                 int faltante = numeros.NumFaltante(); // llama al metodo NumFaltante
 
+                // formato JSON
                 return Ok(new
                 {
                     numero_extraido = num,
